@@ -1,0 +1,93 @@
+  .button {
+    display: inline-block;
+    border-radius: 0 !important;
+    background: #2a2a2a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    padding: 6px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: inherit ;
+    margin: 1px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover {
+    border-style: solid;
+    border-width: 1px;
+    background: #007bff;
+    border-color: blue;
+    transition: 0.1s;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+  .buttonF {
+    display: inline-block;
+    border-radius: 0 !important;
+    background: #007bff;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    padding: 6px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: inherit ;
+    margin: 1px;
+  }
+  
+  .buttonF span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonF span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonF:hover {
+    border-style: solid;
+    font-size: 23px;
+    border-width: 1px;
+    border-color: blue;
+    transition: 0.5s;
+  }
+  
+  .buttonF:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  
+  

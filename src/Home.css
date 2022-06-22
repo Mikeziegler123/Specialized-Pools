@@ -1,0 +1,31 @@
+
+.homebg {
+    background: #0a0a0a;
+}
+.footer {
+    background: #55555e;
+    color: white;
+}
+.p {
+    margin-top: 0px;
+}
+.c1 { 
+    border-style: solid;
+    border-color: red;
+}
+.c2 { 
+    border-style: solid;
+    border-color: rgb(211, 140, 32);
+}
+.c3 { 
+    border-style: solid;
+    border-color: blue;
+}
+.c4 { 
+    border-style: solid;
+    border-color: rgb(206, 41, 131);
+}
+.c5 { 
+    border-style: solid;
+    border-color: rgb(190, 30, 118);
+}
